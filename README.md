@@ -14,4 +14,5 @@
         - Contents: question, answer, and comment contents
         - Count: 154 threads
 - **Mining Keywords**: The keywords used for mining can be found in `keywords.json`.  The keywords are broken into the four categories described in the paper: general keywords, quantum-computing specific keywords, PennyLane template keywords, and hybrid-algorithm keywords.
-- Code book / Glossary
+
+- **Codebook / Glossary**: The definitions for the codes used during the annotation process can be found in the `codes.json` file.
