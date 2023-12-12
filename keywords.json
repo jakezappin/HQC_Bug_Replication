@@ -1,0 +1,5 @@
+{
+"general":["hybrid","classical","bug","error","invalid","exception","defect","fault","crash", "pennylane", "machine learning","deep learning"],
+"qc-specific":["embed","parameter","angle","amplitude","displacement","random","strongly entangled","entangler","rotation","measurement","encod","decod","neural"],
+"pennylane_template":["AmplitudeEmbedding","AngleEmbedding","BasisEmbedding","DisplacementEmbedding","IQPEmbedding","QAOAEmbedding","SqueezingEmbedding","CVNeuralNetLayers","randomLayers","StronglyEntanglingLayers","SimplifiedTwoDesign","BasicEntanglerLayers"],
+"hybrid-algorithm":["variational","Variational Quantum Eigensolver","Quantum Approximate Optimization Algorithm","Quantum Matrix Inversion","Quantum-Assisted Boltzmann Machines","Quantum Support Vector Machines","Variational Quantum Linear Solver","Quantum Optimization","VQE","QAOA","HHL","QSVM","VQLS","Bin Packing"]}
