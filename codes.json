@@ -1,0 +1,114 @@
+{
+"Quantum Hardware / Simulator Related":{
+    "Quantum system defects":{
+        "Noise and decoherence effects":"Pertains to unwanted external influences that can disrupt the coherence of qubit states, leading to computational errors.",
+        "Gate errors and fidelity problems":"Issues related to inaccuracies or inefficiencies in the implementation and/or operation of gates applied to qubits, impacting the reliability of quantum computations either in the simulator or on the real quantum hardware."
+    },
+    "Quantum hardware issues":{
+        "Quantum hardware resource constraints":"Concerns issues that arise related to the physical limitations of the quantum hardware, such as its capacity, number of qubits, execution time or queue length.",
+        "Quantum hardware offline":"Includes issues where the inability to access or connect to quantum computing hardware impedes the execution of quantum-classical algorithms, typically due to hardware being temporarily unavailable or offline.",
+        "Incorrect number of shots":"Refers to issues arising when a user specifies a number of measurement shots that exceeds the limitations set by real quantum hardware, leading to failed executions or inaccurate results."
+
+    },
+    "Classical hardware issues":{
+        "Classical hardware resource contraints":"Issues related to the physical limitations of classical hardware, such as insufficient computational power (CPU or GPU), lack of RAM, lack of hard disk space, etc.",
+        "Unsupported classical hardware":"Includes problems encountered when the classical hardware used for running quantum programs or simulations is not compatible with the specifications or requirements of the quantum computing library, platform, or simulator."
+    }
+},
+"Quantum Software-Related":{
+    "Quantum circuit issues":{
+        "Circuit design errors":"Issues related to the incorrect or inefficient arrangement and connection of gates and qubits in a quantum circuit, affecting its functionality.",
+        "Adding operation on locked circuit":"Includes issues arising from attempting to add more operations to a circuit that has already been executed or run.",
+        "Sequencing error":"Refers to issues arising from incorrect or suboptimal ordering of operations in a quantum algorithm, leading to flawed execution or inaccurate results in the quantum-classical computation process.",
+        "Incorrect gate or rotation design":"Includes issues where quantum gates or rotation operations are improperly designed or implemented within a quantum circuit, resulting in erroneous quantum state manipulations or computational inaccuracies.",
+        "Incorrect usage of quantum gate":"Covers problems that arise when quantum gates are used inappropriately or incorrectly within a quantum circuit, leading to unintended manipulations of qubit states and compromised algorithm performance."
+    },
+    "Quantum compiler and transpiler errors":"Encompasses issues related to the malfunction or misbehavior of quantum compilers and transpilers, resulting in incorrect translation, optimization, or execution of quantum circuits and algorithms.",
+    "Quantum algorithm implementation errors":"Refers to problems arising from incorrect or flawed implementation of quantum algorithms leading to crashes or incorrect results, including errors in logic, algorithmic design, or the integration of quantum and classical components."
+},
+"Encoding and Embedding Issues":{
+    "Embedding design errors":"Includes issues related to the improper design or implementation of the process for embedding classical data into quantum states, leading to either crashes or incorrect data representation in quantum algorithms.",
+    "Embedding does not support differentiation":"Includes issues where the method of embedding classical data into a quantum system is not compatible with gradient-based optimization, hindering the ability to perform differential calculations essential in variational algorithms."
+},
+"Algorithmic Issues":{
+    "Machine learning":{
+        "Backpropogation errors":"Concerns related to mistakes or inefficiencies in the backpropagation process, a method commonly used in quantum neural networks and machine learning to adjust parameters based on error feedback.",
+        "Training / testing dataset issue":"Problems related to the inappropriate selection or use of datasets for training and testing in quantum machine learning algorithms, impacting the algorithm's performance and accuracy.",
+        "Improper batching scheme":"Issues arising from inefficient or incorrect implementation of data batching, affecting the processing and throughput of quantum-classical machine learning models and applications.",
+        "Accuracy issue (e.g., overfitting)":"Problems that negatively impact the predictive accuracy or generalization ability of quantum machine learning models.",
+        "Convergence and optimization problems (ML)":"Encompasses issues where quantum machine learning algorithms fail to properly converge or optimize due to inadequate parameter tuning, inefficient optimization strategies, or other related problems in the algorithm's learning process.",
+        "Poor data pre-processing choices":"Includes issues arising from suboptimal or incorrect decisions in the pre-processing stage of data handling, such as inadequate normalization or scaling that adversely affecting the performance of quantum algorithms.",
+        "Problem saving or loading quantum weights":"Encompasses problems that are encountered in the saving or loading of quantum weights in a hybrid quantum-classical machine learning model."
+    },
+    "Quantum algorithm-specific issues":{
+        "Incorrect quantum algorithm design":"Covers bugs where the fundamental design or logic of the quantum algorithm is flawed, resulting in incorrect outcomes, computational errors or the algorithm not functioning as intended.",
+        "Inefficient quantum algorithm design":"Includes bugs where the quantum algorithm is correctly implemented according to its design, but the design itself is suboptimal, leading to inefficiencies such as excessive resource usage, longer computation times or reduced scalability."
+    },
+    "Improper parameterization":"Refers to issues arising from incorrect or suboptimal settings of parameters in quantum algorithms or circuits, leading to poor performance, inaccurate results, or failure to achieve the desired computational objectives.",
+    "Incorrect hybrid design":"Encompasses bugs related to the improper integration or design of quantum and classical components in a hybrid quantum-classical algorithm, leading to issues in functionality, efficiency, or accuracy.",
+    "Convergence and optimization problems (non-ML)":"Encompasses issues where quantum-classical algorithms fail to properly converge or optimize, particularly in hybrid algorithms that implement or use Variational Quantum Eigensolvers."
+},
+"Measurement and Output":{
+    "Measurement error and misinterpretation":"Concerns related to inaccuracies in the act of measuring quantum states and potential misunderstandings or incorrect interpretations of the measurement outcomes.",
+    "Output formatting and visualization issues":"Pertains to problems associated with presenting or visualizing the quantum computation results in a coherent, interpretable, and user-friendly manner."
+},
+"Configuration Issues":{
+    "Configuration file loading and parsing issues":"Problems encountered when attempting to access, read, or interpret the content of configuration files, possibly due to file corruption, unsupported formats, or software incompatibilities.",
+    "Library Issues":{
+        "Library not installed":"The library necessary to run an application or perform a function has not been installed by the user causing errors or crashes.",
+        "Incorrect library version installed":"Issues arising when an application or library fails to operate correctly with a particular version of a library.",
+        "Using incorrect library":"Includes issues where an error or malfunction in a quantum computing application is caused by using a library that is unsuitable or incompatible for the task at hand, and switching to a different, more appropriate library resolves the problem."
+    },
+    "Using wrong simulator":"Encompasses problems where a quantum computing application encounters errors or inaccuracies due to the use of a quantum simulator that is not appropriate or adequately configured for the specific algorithm or task being executed.",
+    "Incorrect GPU driver":"Includes situations where the wrong driver version is installed and is incompatible with the program or library the user is trying to run.",
+    "Wrong version of language":"Refers to issues where the user is attempting to use a version of the programming language that is not supported by the application, library or platform.",
+    "Runtime environment issue":"Refers to problems that arise due to issues with the computing environment in which the hybrid application is run, such as failures to update or reset environments like Google Colab, or conflicts arising from multiple versions of a package installed on a machine."
+},
+"Library or Platform Issues":{
+    "Library Compatibility Issues":{
+        "Incompatibility with specific library":"Refers to issues arising when a piece of software or an application fails to operate correctly with a particular version of a library or package, which are typically solved by upgrading the library version.",
+        "Version conflicts among required libraries":"Covers issues where incompatible library version requirements within a hybrid quantum application lead to conflicts, causing malfunctions or failures in the software's execution.",
+        "Issues with library updates and backward compatibility":"Pertains to problems that arise when updating a library to a newer version, where the updated library may no longer support features or functionalities from its earlier versions."
+    },
+    "Missing features / support":{
+        "Unsupported operation":"Refers to situations where the quantum computing platform or library fails to support an operation that it is expected to, often evidenced by pending updates or pull requests, resulting in user attempts at valid operations being unsuccessful.",
+        "Operation not officially supported":"Refers to instances where support for particular functionality is available in an adhoc way, but is not cleanly available in the current released version of a library or platform.",
+        "Missing OS support":"The platform or one of it's dependencies is missing support for an operating system (Windows, Mac, Linux, etc)."
+    },
+    "Distribution issues":{
+        "Outdated version on package manager":"An outdated version of the application / software / library is hosted on the package manager (pip, conda, etc.) causing issues or errors.",
+        "Missing dependency specification":"A needed dependency isn't in the requirements.txt file."
+    },
+    "Documentation Issues":{
+        "Incorrect documentation":"The issue or error is the result of a misunderstanding originating from incorrect or confusing documentation issues by the library or platform.",
+        "Using outdated or broken example":"Arises when the user is attempting to run or build on top of an outdated, removed or broken code example that has been removed from documentation issued by a library or platform."
+    },
+    "Bug in library":"Encompasses issues that stem from a bug in the platform or library.  The bug may be patched on GitHub, but the fix has not yet been part of an official release. It's also possible that the bug hasn't been resolved at all."
+},
+"Performance and Scalability":{
+    "Scalability limitations":"Refers to issues arising when a hybrid system, application or algorithm struggles to handle increased input sizes or computational demands.",
+    "Slow simulation times":"The \"bug\" is a performance issue, primarily that the quantum simulation is prohibitively slow or slower than the ideal with no known fix."
+},
+"Testing and Verification":{
+    "Test case design errors":"Concerns related to mistakes or oversights in designing test scenarios to evaluate the functionality or performance of a hybrid application or algorithm."
+},
+"User Errors":{
+    "Incorrect type":"Occurs when the user stores or uses a value in an incorrect data type.",
+    "Incorrect function parameters":"Occurs when the user passes the wrong parameters to function causing an issue or error.",
+    "Unexpected EOF while parsing":"Program crashes with an EOF error, typically resulting from a bad copy/paste or poorly written code.",
+    "Missing or bad import":"The import statement for one or more libraries is missing and/or written incorrectly.",
+    "Incorrect class or function use":"The misuse or misapplication of classes or functions within quantum computing libraries, leading to incorrect algorithm behavior or computational errors.",
+    "Incorrect library use":"The misuse or misconfiguration of quantum computing libraries and frameworks, leading to incorrect implementation or execution of hybrid applications or algorithms.",
+    "Syntax error":"Problems caused by incorrect syntax in the code, such as typos, incorrect use of programming language constructs or misformatted commands.",
+    "Logical error":"The code snippet is syntactically correct, but does not accomplish the desired result.",
+    "Attribute error":"Issues where a program attempts to access or modify an attribute of an object (such as a class or function) that does not exist or is improperly referenced, resulting in errors during execution.",
+    "Inefficient or poorly written solution":"The written code is longer and / or more complicated than it needs to be leading to bugs. This may mean not using built in library features.",
+    "Bad copy-paste":"An issue resulting from an incomplete or bad copy/paste of code.",
+    "Used wrong flags":"Used default flag or passed in incorrect flag to a function that led to incorrect results, a crash or inefficient performance.",
+    "Incorrect path":"An error occurs because a file cannot be found, i.e. the path is incorrect.",
+    "Failure to log in":"An issue arises because the user forgot to log into their account and/or provide an API key. It could also be that this information is provided, but used incorrectly.",
+    "Improper library initialization":"Initialization is missing or otherwise done incorrectly for a library used by the application or algorithm.",
+    "Unsupported operation (user error)":"Problems caused by users attempting to execute operations or functions that are not supported or feasible within the current capabilities of the library, platform or hardware being used.",
+    "Incorrect operation usage":"Occurs when the user attempts an operation or or uses a platform feature in a way that is incorrect or unintended, which results in errors."
+}
+}
