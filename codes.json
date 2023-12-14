@@ -92,7 +92,7 @@
 "Testing and Verification":{
     "Test case design errors":"Concerns related to mistakes or oversights in designing test scenarios to evaluate the functionality or performance of a hybrid application or algorithm."
 },
-"User Errors":{
+"Developer Errors":{
     "Incorrect type":"Occurs when the user stores or uses a value in an incorrect data type.",
     "Incorrect function parameters":"Occurs when the user passes the wrong parameters to function causing an issue or error.",
     "Unexpected EOF while parsing":"Program crashes with an EOF error, typically resulting from a bad copy/paste or poorly written code.",
@@ -102,13 +102,13 @@
     "Syntax error":"Problems caused by incorrect syntax in the code, such as typos, incorrect use of programming language constructs or misformatted commands.",
     "Logical error":"The code snippet is syntactically correct, but does not accomplish the desired result.",
     "Attribute error":"Issues where a program attempts to access or modify an attribute of an object (such as a class or function) that does not exist or is improperly referenced, resulting in errors during execution.",
+    "Scope error":"An error that occurs when the user attempts to access a variable out of scope",
     "Inefficient or poorly written solution":"The written code is longer and / or more complicated than it needs to be leading to bugs. This may mean not using built in library features.",
     "Bad copy-paste":"An issue resulting from an incomplete or bad copy/paste of code.",
     "Used wrong flags":"Used default flag or passed in incorrect flag to a function that led to incorrect results, a crash or inefficient performance.",
     "Incorrect path":"An error occurs because a file cannot be found, i.e. the path is incorrect.",
     "Failure to log in":"An issue arises because the user forgot to log into their account and/or provide an API key. It could also be that this information is provided, but used incorrectly.",
     "Improper library initialization":"Initialization is missing or otherwise done incorrectly for a library used by the application or algorithm.",
-    "Unsupported operation (user error)":"Problems caused by users attempting to execute operations or functions that are not supported or feasible within the current capabilities of the library, platform or hardware being used.",
-    "Incorrect operation usage":"Occurs when the user attempts an operation or or uses a platform feature in a way that is incorrect or unintended, which results in errors."
+    "Unsupported operation (user error)":"Problems caused by users attempting to execute operations or functions that are not supported or feasible within the current capabilities of the library, platform or hardware being used."
 }
 }
